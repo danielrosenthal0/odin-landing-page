@@ -2,8 +2,21 @@
     display: flex;
     background-color: #1F2937;
     color: white;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
 }
-.link {
-    flex: 1;
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+a {
+    padding: 32px;
+}
+.title {
+    padding-left: 32px;
+    font-size: 24px;
+    color: #f9faf8;
 }

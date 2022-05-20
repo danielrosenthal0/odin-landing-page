@@ -26,13 +26,13 @@ a {
 .first-content-left {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 36px;
     flex-shrink: 0;
 }
 .first-content {
     display: flex;
     justify-content: center;
-    padding: 24px;
+    padding: 36px;
     background-color: #1F2937;
     color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +50,29 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 .subtext {
-    width: 200px;
+    width: 300px;
     color: #e5e7eb;
+}
+.image1 {
+    border: 2px solid blue;
+    border-radius: 6px;
+   
+    margin: 8px;
+}
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtext2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 500px;
+}
+.blue-images {
+    display: flex;
+    
 }

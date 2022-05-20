@@ -93,3 +93,25 @@ h2 {
     padding: 24px;
     padding-top: 48px;
 }
+.quote-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    padding:72px;
+}
+.quote {
+    width: 500px;
+    text-align: center;
+    text-emphasis: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: #1F2937;
+}
+.source {
+    padding-left: 250px;
+    font-weight: bold;
+    color: black;
+}
